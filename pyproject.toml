@@ -1,7 +1,9 @@
 [project]
 name = "python-jinja-prompts"
 version = "0.1.0"
-description = "Add your description here"
+description = "Dynamic prompt generation using Jinja2 templates"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "jinja2>=3.1.0",
+]
